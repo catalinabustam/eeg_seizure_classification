@@ -6,7 +6,7 @@ https://www.kaggle.com/c/seizure-detection/overview
 
 
 
-# Data set description: 
+#### Data set description: 
 
 * 8 Patients
 
@@ -18,10 +18,20 @@ For Each subject
   * Different number of samples
 
 
-Each data set consists of
+#### Each data set consists of
 
   * 1-second EEG clips labeled "Ictal" for seizure data segments, or "Interictal" for non-seizure data segments
 
   * matrix of EEG sample values arranged  as [n_channel, n_time_points]
+  
+Results
+
+#### Comparision with kaggle competition leaderBoard:
+
+The winner got a value for mean AUC of 0.96287
+He used:
+Combination of FFT with time and frequency correlation, taking both correlation coefficients and eigenvalues
+RandomForestClassifier
+https://github.com/MichaelHills/seizure-detection
   
  
