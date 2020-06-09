@@ -24,7 +24,7 @@ For Each subject
 
   * matrix of EEG sample values arranged  as [n_channel, n_time_points]
 
-### For each subject a model was run whit the same arquitecture:
+#### For each subject a model was run whit the same arquitecture:
 
 2 layers of LSTM with 128 cell each one
 1 dropout layer
