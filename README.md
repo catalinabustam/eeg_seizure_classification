@@ -32,7 +32,7 @@ For Each subject
   
 #### Results
 
-AVERAGE AUC: 0.84
+Mean AUC: 0.84
 
 #### Comparision with kaggle competition leaderBoard:
 
