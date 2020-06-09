@@ -3,8 +3,8 @@
 From Kaggle UPenn and Mayo Clinic's Seizure Detection Challenge
 
 https://www.kaggle.com/c/seizure-detection/overview
-
-
+ 
+To download dataset from kaggle page, run first:  Download_visualize_data.ipynb
 
 #### Data set description: 
 
