@@ -30,8 +30,9 @@ Results
 
 The winner got a value for mean AUC of 0.96287
 He used:
-Combination of FFT with time and frequency correlation, taking both correlation coefficients and eigenvalues
-RandomForestClassifier
+* Combination of FFT with time and frequency correlation, taking both correlation coefficients and eigenvalues
+* RandomForestClassifier
+
 https://github.com/MichaelHills/seizure-detection
   
  
