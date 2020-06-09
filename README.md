@@ -23,8 +23,16 @@ For Each subject
   * 1-second EEG clips labeled "Ictal" for seizure data segments, or "Interictal" for non-seizure data segments
 
   * matrix of EEG sample values arranged  as [n_channel, n_time_points]
+
+### For each subject a model was run whit the same arquitecture:
+
+2 layers of LSTM with 128 cell each one
+1 dropout layer
+1 fully connected layer for classification output
   
-Results
+#### Results
+
+AVERAGE AUC: 0.84
 
 #### Comparision with kaggle competition leaderBoard:
 
